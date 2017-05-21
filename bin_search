@@ -1,0 +1,37 @@
+package assin3;
+import java.util.Scanner;
+public class bin_search {
+
+	public static void main(String[] args) {
+		int A[]=new int[5];
+		Scanner sc =new Scanner(System.in);
+		System.out.println("input the array");
+		for(int i=0;i<A.length;i++){
+			A[i]=sc.nextInt();
+		}
+		for(int i=0;i<A.length;i++)
+		{
+			System.out.print(" "+A[i]);
+		}
+		System.out.println("input value to be serched");
+		int S=sc.nextInt();
+		int ind= bin_ser(A,0,A.length-1,S);
+		if(ind==-1)
+			System.out.println("not found");
+		else
+			System.out.println("the element has found at index "+(ind+1));
+	}
+     public static int bin_ser(int A[],int len,int bre,int num)
+     {
+    	 int mid=(len+bre)/2;
+    	 if(len>bre)
+    		 return -1;
+    	 if(A[mid]==num)
+    		 return mid;
+    	 else if(A[mid]>num)
+    		 return bin_ser(A,len,mid-1,num);
+    	 else if(A[mid]<num)
+    		 return bin_ser(A,len,mid+1,num);
+    	 return 0;
+     }
+}
