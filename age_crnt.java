@@ -1,3 +1,4 @@
+\\without using date and time class***********
 package find_age;
 import java.util.Scanner;
 public class age_crnt {
