@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+		<servlet-name>StudentReg</servlet-name>
+		<servlet-class>com.controller.StudentReg</servlet-class>		
+		<init-param>
+			<param-name>username</param-name>
+			<param-value>bbsr</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>bbsr</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StudentReg</servlet-name>
+		<url-pattern>/com.controller.StudentReg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CourseReg</servlet-name>
+		<servlet-class>com.controller.CourseReg</servlet-class>		
+		<init-param>
+			<param-name>username</param-name>
+			<param-value>system</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>0120</param-value>
+		</init-param>	</servlet>
+	<servlet-mapping>
+		<servlet-name>CourseReg</servlet-name>
+		<url-pattern>/com.controller.CourseReg</url-pattern>
+	</servlet-mapping>
+	
+	<context-param>
+		<param-name>driver</param-name>
+		<param-value>oracle.jdbc.OracleDriver</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>url</param-name>
+		<param-value>jdbc:oracle:thin:@localhost:1599:xe</param-value>
+	</context-param>
+</web-app>

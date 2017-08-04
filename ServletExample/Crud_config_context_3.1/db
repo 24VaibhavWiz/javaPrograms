@@ -1,0 +1,5 @@
+conn system/0120
+create user j2ee identified by j2ee
+grant dga to j2ee;
+conn j2ee/j2ee
+create table course
