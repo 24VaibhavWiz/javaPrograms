@@ -1,0 +1,13 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+  <hibernate-mapping>
+  <class name="beans.ticket_ex" table ="ticket1" schema="lit">
+  <id name="id">
+  <generator class="identity"/>
+  </id>
+  	<property name ="mov_name"></property>
+	<property name ="time"></property>
+	<property name ="seat_no"></property>
+  </class>
+  </hibernate-mapping>

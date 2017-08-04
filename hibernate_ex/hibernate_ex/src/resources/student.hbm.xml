@@ -1,0 +1,11 @@
+
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+	<hibernate-mapping>
+	<class name="bean.student" table ="student_001" schema="system">
+	<id name ="id"></id>
+	<property name ="name"></property>
+	<property name ="email_id"></property>
+	</class>
+	</hibernate-mapping>
