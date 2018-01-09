@@ -1,0 +1,23 @@
+#include"stdio.h"
+void base()
+{
+        printf("  ______________________  ");
+}
+void parallel()
+{
+        printf(" |                      |\n");
+        printf(" |                      |\n");
+        printf(" |                      |\n");
+        printf(" |                      |\n");
+        printf(" |                      |\n");
+        printf(" |                      |\n");
+        printf(" |                      |\n");
+        printf(" |                      |\n");
+
+}
+main()
+{
+        base();
+        parallel();
+        base();
+}

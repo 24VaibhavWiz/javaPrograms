@@ -1,0 +1,53 @@
+#include"stdio.h"
+void d()
+{
+        printf("\n ________________\n");
+        printf(" |                |\n");
+        printf(" |                  |\n");
+        printf(" |                   |\n");
+        printf(" |                    |\n");
+        printf(" |                     |\n");
+        printf(" |                     |\n");
+        printf(" |                    |\n");
+        printf(" |                   |\n");
+        printf(" |                  |\n");
+        printf(" |________________|\n");
+
+}
+void o()
+{
+        printf("\n_________________\n");
+        printf("|                 |\n");
+        printf("|                 |\n");
+        printf("|                 |\n");
+        printf("|                 |\n");
+        printf("|                 |\n");
+        printf("|                 |\n");
+        printf("|                 |\n");
+        printf("|                 |\n");
+        printf("|                 |\n");
+        printf("|_________________|\n");
+
+}
+void l()
+{
+        printf("\n|\n");
+        printf("|\n");
+        printf("|\n");
+        printf("|\n");
+        printf("|\n");
+        printf("|\n");
+        printf("|\n");
+        printf("|\n");
+        printf("|\n");
+        printf("|_________________\n");
+}
+main()
+{
+        d();
+        o();
+        l();
+        l();
+
+}
+

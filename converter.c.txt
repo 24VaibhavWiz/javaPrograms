@@ -1,0 +1,13 @@
+#include"stdio.h"
+#define con 1.609344
+double miles(double mile)
+{
+        return con*mile;
+}
+main()
+{
+        double mile;
+        printf("Please enter the mile....\n");
+        scanf("%lf",&mile);
+        printf("converted ans is %f \n",miles(mile));
+}
